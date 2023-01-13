@@ -14,9 +14,16 @@ import Escrow from './abis/Escrow.json'
 import config from './config.json';
 
 function App() {
+  const [account, setAccount] = useState(null)
+
+  const loadBlockchainData = async () => {
+    const provider = new ethers.providers.Web3Provider(window.ethereum)
+  }
 
   return (
     <div>
+
+      <Navigation account={account} setAccount={setAccount} />
 
       <div className='cards__section'>
 
