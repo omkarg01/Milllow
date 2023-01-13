@@ -14,25 +14,21 @@ import Escrow from './abis/Escrow.json'
 import config from './config.json';
 
 function App() {
-  const [account, setAccount] = useState(null)
+    const [account, setAccount] = useState(null)
 
-  const loadBlockchainData = async () => {
-    const provider = new ethers.providers.Web3Provider(window.ethereum)
-  }
+    const loadBlockchainData = async () => {
+        const provider = new ethers.providers.Web3Provider(window.ethereum)
+    }
 
-  return (
-    <div>
+    return (
+        <div>
 
-      <Navigation account={account} setAccount={setAccount} />
+            <Navigation account={account} setAccount={setAccount} />
 
-      <div className='cards__section'>
+            <Search />
 
-        <h3>Welcome to Millow</h3>
-
-      </div>
-
-    </div>
-  );
+        </div>
+    );
 }
 
 export default App;
