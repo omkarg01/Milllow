@@ -1,5 +1,11 @@
 # Real Estate NFT DApp
 
+## Preview
+![Screenshot 2023-03-31 145243](https://user-images.githubusercontent.com/67428719/229081651-83e17da4-fec1-47a1-ac2b-2c992e3a439f.png)
+
+## Demo 
+https://milllow.vercel.app/
+
 ## Technology Stack & Tools
 
 - Solidity (Writing Smart Contracts & Tests)
