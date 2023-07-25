@@ -5,7 +5,8 @@ A RealEstate platform where you can buy and sell property.
 ![Screenshot 2023-03-31 145243](https://user-images.githubusercontent.com/67428719/229081651-83e17da4-fec1-47a1-ac2b-2c992e3a439f.png)
 
 ## Demo 
-https://milllow.vercel.app/
+https://github.com/omkarg01/Milllow/assets/67428719/18b6520e-4a0f-4a88-95a1-5d29b2515149
+
 
 ## Technology Stack & Tools
 
